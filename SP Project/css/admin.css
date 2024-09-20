@@ -1,0 +1,167 @@
+/* CSS style sheet page for SP admin  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+}
+
+.wrapper {
+    padding: 1.5%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+h2{
+    color: #402218;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.tbl-full{
+    width: 100%;
+    padding: 1%;
+    text-align: left;
+}
+.tbl-30{
+    width: 80%;
+    border: none;
+}
+table{
+    border-collapse: collapse;
+}
+table tr th {
+    padding: 2%;
+    border-bottom: 1px solid #C68B59;
+    background-color: #C68B59;
+}
+table tr td{
+    border: 1px solid #C68B59;
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #FF7F5B;
+    margin-left: 75%;
+    padding: 1.5%;
+    color: #402218;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #BAAF92;
+}
+.btn-sec{
+    background-color: #857671;
+    padding: 2%;
+    color: #E2DED3;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-sec:hover{
+    background-color: #BAAF92;
+}
+.btn-thi{
+    background-color: #4E413B;
+    padding: 2%;
+    color: #E2DED3;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-thi:hover{
+    background-color: #BAAF92;
+}
+
+
+/* Menu section */
+
+.nav{
+    border-bottom: 1px solid gainsboro;
+}
+.nav ul{
+    list-style-type: none;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 1.5%;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #C68B59 ;
+}
+.nav ul li a:hover{
+    color:#865439;
+}
+
+/* content section */
+
+.main-content{
+    background-color: #ececec;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 28%;
+    background-color: white;
+    margin: 1%;
+    padding: 1.5%;
+    float: left;
+}
+.dash-bg{
+    background-color: #C68B59;
+}
+
+/* CSS for Social */
+
+a{
+    color: #C68B59;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.footer{
+    padding: 1.5%; 
+  }
+.social{
+    padding-top: 2%;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 2%;
+}
+  
+
+/* css for login */
+
+.login{
+    border: 1px solid #4E413B;
+    width: 20%;
+    padding: 3%;
+    margin: 7% auto;
+    background-color: white;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+}
+.btn{
+    font-size: 1rem;
+    background-color: #C68B59;
+    padding: 2%;
+    width: 50%;
+    font-weight: bolder;
+}
